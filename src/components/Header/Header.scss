@@ -1,0 +1,55 @@
+$primary-color: #8b0000;
+$text-color: rgb(55, 65, 81);
+$font-family-header: 'Georgian', serif;
+$font-family-nav: 'Inter', sans-serif;
+
+nav {
+    position: fixed;
+    background-color: #ffffff;
+    height: 72px;
+    font-family: Georgian;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+    @media (max-width:995px) {
+        & {
+            position: relative;
+            height: auto;
+        }
+    }
+
+    .logo {
+        color: rgb(139 0 0);
+        font-size: 1.6rem;
+        line-height: 2rem;
+        font-weight: 700;
+
+        &:hover {
+            color: $primary-color;
+        }
+
+    }
+
+    .navbar-collapse {
+        flex-grow: 0;
+
+        ul {
+            font-family: Inter, sans-serif;
+            font-weight: 500;
+
+            li {
+                a {
+                    &:hover {
+                        color: $primary-color;
+                    }
+
+                    &.active-link {
+                        color: $primary-color;
+                        font-weight: 600;
+                    }
+                }
+            }
+        }
+    }
+
+
+}
