@@ -1,0 +1,83 @@
+[
+    {
+        "id": 1,
+        "name": "Organic Coffee Blend",
+        "description": "A smooth, rich blend of organic coffee beans with notes of chocolate and caramel.",
+        "price": 19.99,
+        "currency": "USD",
+        "image": "https://images.unsplash.com/photo-1559056199-641a0ac8b55e",
+        "buttonText": "View Details"
+    },
+    {
+        "id": 2,
+        "name": "Ethiopian Dark Roast",
+        "description": "Bold and intense coffee with a smoky aroma and deep chocolate flavors.",
+        "price": 22.49,
+        "currency": "USD",
+        "image": "https://images.unsplash.com/photo-1587049352851-8d4e89133924",
+        "buttonText": "View Details"
+    },
+    {
+        "id": 3,
+        "name": "Colombian Medium Roast",
+        "description": "Well-balanced flavor with hints of citrus and caramel sweetness.",
+        "price": 18.5,
+        "currency": "USD",
+        "image": "https://images.unsplash.com/photo-1559056199-641a0ac8b55e",
+        "buttonText": "View Details"
+    },
+    {
+        "id": 4,
+        "name": "French Vanilla Blend",
+        "description": "Smooth, creamy coffee infused with the sweet aroma of French vanilla.",
+        "price": 20.0,
+        "currency": "USD",
+        "image": "https://images.unsplash.com/photo-1587049352851-8d4e89133924",
+        "buttonText": "View Details"
+    },
+    {
+        "id": 5,
+        "name": "Hazelnut Flavored Coffee",
+        "description": "Light roast coffee with a nutty and aromatic hazelnut flavor.",
+        "price": 21.3,
+        "currency": "USD",
+        "image": "https://images.unsplash.com/photo-1559056199-641a0ac8b55e",
+        "buttonText": "View Details"
+    },
+    {
+        "id": 6,
+        "name": "Mocha Espresso",
+        "description": "Rich espresso with hints of dark chocolate for a bold taste experience.",
+        "price": 23.75,
+        "currency": "USD",
+        "image": "https://images.unsplash.com/photo-1587049352851-8d4e89133924",
+        "buttonText": "View Details"
+    },
+    {
+        "id": 7,
+        "name": "French Vanilla Blend",
+        "description": "Smooth, creamy coffee infused with the sweet aroma of French vanilla.",
+        "price": 20.0,
+        "currency": "USD",
+        "image": "https://images.unsplash.com/photo-1587049352851-8d4e89133924",
+        "buttonText": "View Details"
+    },
+    {
+        "id": 8,
+        "name": "Hazelnut Flavored Coffee",
+        "description": "Light roast coffee with a nutty and aromatic hazelnut flavor.",
+        "price": 21.3,
+        "currency": "USD",
+        "image": "https://images.unsplash.com/photo-1559056199-641a0ac8b55e",
+        "buttonText": "View Details"
+    },
+    {
+        "id": 9,
+        "name": "Mocha Espresso",
+        "description": "Rich espresso with hints of dark chocolate for a bold taste experience.",
+        "price": 23.75,
+        "currency": "USD",
+        "image": "https://images.unsplash.com/photo-1587049352851-8d4e89133924",
+        "buttonText": "View Details"
+    }
+]

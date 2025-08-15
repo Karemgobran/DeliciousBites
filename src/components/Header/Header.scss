@@ -4,11 +4,14 @@ $font-family-header: 'Georgian', serif;
 $font-family-nav: 'Inter', sans-serif;
 
 nav {
-    position: fixed;
     background-color: #ffffff;
     height: 72px;
-    font-family: Georgian;
+    font-family: "Playfair Display", serif;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
 
     @media (max-width:995px) {
         & {
