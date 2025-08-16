@@ -5,13 +5,14 @@ import Header from "./components/Header/Header";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./page/Home/Home";
 import Footer from "./components/Footer/Footer";
+import Products from "./page/Products/Products";
 function App() {
   return (
     <Router>
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/products" element={<h1>Products Page</h1>} />
+        <Route path="/products" element={<Products />} />
         <Route path="/about" element={<h1>About Page</h1>} />
         <Route path="/contact" element={<h1>Contact Page</h1>} />
       </Routes>

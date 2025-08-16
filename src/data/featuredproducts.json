@@ -6,7 +6,8 @@
         "price": 19.99,
         "currency": "USD",
         "image": "https://images.unsplash.com/photo-1559056199-641a0ac8b55e",
-        "buttonText": "View Details"
+        "buttonText": "View Details",
+        "category": "Beverages"
     },
     {
         "id": 2,
@@ -15,7 +16,8 @@
         "price": 22.49,
         "currency": "USD",
         "image": "https://images.unsplash.com/photo-1587049352851-8d4e89133924",
-        "buttonText": "View Details"
+        "buttonText": "View Details",
+        "category": "Beverages"
     },
     {
         "id": 3,
@@ -24,7 +26,8 @@
         "price": 18.5,
         "currency": "USD",
         "image": "https://images.unsplash.com/photo-1559056199-641a0ac8b55e",
-        "buttonText": "View Details"
+        "buttonText": "View Details",
+        "category": "Bakery"
     },
     {
         "id": 4,
@@ -33,7 +36,8 @@
         "price": 20.0,
         "currency": "USD",
         "image": "https://images.unsplash.com/photo-1587049352851-8d4e89133924",
-        "buttonText": "View Details"
+        "buttonText": "View Details",
+        "category": "Bakery"
     },
     {
         "id": 5,
@@ -42,7 +46,8 @@
         "price": 21.3,
         "currency": "USD",
         "image": "https://images.unsplash.com/photo-1559056199-641a0ac8b55e",
-        "buttonText": "View Details"
+        "buttonText": "View Details",
+        "category": "Pantry"
     },
     {
         "id": 6,
@@ -51,7 +56,8 @@
         "price": 23.75,
         "currency": "USD",
         "image": "https://images.unsplash.com/photo-1587049352851-8d4e89133924",
-        "buttonText": "View Details"
+        "buttonText": "View Details",
+        "category": "Pantry"
     },
     {
         "id": 7,
@@ -60,7 +66,8 @@
         "price": 20.0,
         "currency": "USD",
         "image": "https://images.unsplash.com/photo-1587049352851-8d4e89133924",
-        "buttonText": "View Details"
+        "buttonText": "View Details",
+        "category": "Dairy"
     },
     {
         "id": 8,
@@ -69,7 +76,8 @@
         "price": 21.3,
         "currency": "USD",
         "image": "https://images.unsplash.com/photo-1559056199-641a0ac8b55e",
-        "buttonText": "View Details"
+        "buttonText": "View Details",
+        "category": "Dairy"
     },
     {
         "id": 9,
@@ -78,6 +86,7 @@
         "price": 23.75,
         "currency": "USD",
         "image": "https://images.unsplash.com/photo-1587049352851-8d4e89133924",
-        "buttonText": "View Details"
+        "buttonText": "View Details",
+        "category": "Dairy"
     }
 ]

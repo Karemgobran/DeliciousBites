@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./ProductCard.scss";
 function ProductCard({ product }) {
   return (
     <div className="product-card shadow-md">
