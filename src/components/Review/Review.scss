@@ -1,0 +1,86 @@
+.review {
+    background-color: rgb(243 244 246);
+    padding: 4rem;
+
+    @media (max-width: 768px) {
+        padding: 2rem;
+
+    }
+
+    .review-container {
+        display: flex;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        scroll-padding: 1rem;
+        gap: 1rem;
+        scroll-behavior: smooth;
+    }
+
+    .title {
+        h2 {
+            text-align: center;
+            font-weight: 600;
+            color: #1f2937;
+            margin-bottom: 2rem;
+            font-size: 2.25rem;
+            line-height: 2.5rem;
+            font-family: Playfair Display, serif;
+
+            span {
+                color: #8b0000;
+            }
+        }
+    }
+
+    .review-card {
+        flex: 0 0 auto;
+        min-width: 300px;
+        max-width: 460px;
+        scroll-snap-align: start;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        background-color: #ffffff;
+        padding: 2rem;
+        border-radius: 0.5rem;
+
+        p {
+            color: rgb(55 65 81);
+            font-style: italic;
+            font-size: 1.25rem;
+            line-height: 1.75rem;
+            font-family: Inter, sans-serif;
+
+        }
+    }
+}
+
+.person {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    .image {
+        img {
+            width: 4rem;
+            height: 4rem;
+            object-fit: cover;
+            border-radius: 9999px;
+
+        }
+    }
+
+    .data {
+        font-family: Inter, sans-serif;
+
+        span {
+            font-weight: 600;
+            color: #1f2937;
+        }
+
+        p {
+            color: rgb(107 114 128);
+            font-size: 0.875rem;
+            line-height: 1.25rem;
+
+        }
+    }
+}

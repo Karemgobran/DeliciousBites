@@ -1,0 +1,42 @@
+[
+    {
+        "comment": "The quality of these products is outstanding. Every item I've tried has exceeded my expectations. Their attention to detail and commitment to quality ingredients is evident in every bite.",
+        "image": "/HeroSection.jpeg",
+        "person": {
+            "name": "Emily Johnson",
+            "job": "Barista"
+        }
+    },
+    {
+        "comment": "The quality of these products is outstanding. Every item I've tried has exceeded my expectations. Their attention to detail and commitment to quality ingredients is evident in every bite.",
+        "image": "/HeroSection.jpeg",
+        "person": {
+            "name": "Chris Evans",
+            "job": "Photographer"
+        }
+    },
+    {
+        "comment": "The quality of these products is outstanding. Every item I've tried has exceeded my expectations. Their attention to detail and commitment to quality ingredients is evident in every bite.",
+        "image": "/HeroSection.jpeg",
+        "person": {
+            "name": "Sophia Williams",
+            "job": "Food Critic"
+        }
+    },
+    {
+        "comment": "The quality of these products is outstanding. Every item I've tried has exceeded my expectations. Their attention to detail and commitment to quality ingredients is evident in every bite.",
+        "image": "/HeroSection.jpeg",
+        "person": {
+            "name": "Sophia Williams",
+            "job": "Food Critic"
+        }
+    },
+    {
+        "comment": "The quality of these products is outstanding. Every item I've tried has exceeded my expectations. Their attention to detail and commitment to quality ingredients is evident in every bite.",
+        "image": "/HeroSection.jpeg",
+        "person": {
+            "name": "Sophia Williams",
+            "job": "Food Critic"
+        }
+    }
+]
