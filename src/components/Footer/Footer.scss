@@ -1,0 +1,117 @@
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(17 24 39);
+    color: #fff;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+
+        .left {
+            h2 {
+                font-size: 2rem;
+                margin-bottom: 2rem;
+                line-height: 1.75rem;
+                font-weight: 600;
+                color: rgb(139, 0, 0);
+                font-family: Playfair Display, serif;
+
+            }
+
+            p {
+                font-family: Inter, sans-serif;
+                margin-bottom: 1rem;
+                font-size: 0.875rem;
+                line-height: 1.25rem;
+            }
+        }
+
+        .middle {
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+
+
+            h3 {
+                font-size: 1.5rem;
+                margin-bottom: 2rem;
+                line-height: 1.75rem;
+                font-weight: 600;
+                font-family: Playfair Display, serif;
+
+            }
+
+            ul {
+                list-style: none;
+                padding: 0;
+                text-align: start;
+
+                li {
+                    margin-bottom: 0.5rem;
+                    font-family: Inter, sans-serif;
+                    font-size: 0.875rem;
+                    line-height: 1.25rem;
+
+                    a {
+                        color: #fff;
+                        text-decoration: none;
+
+                        &:hover {
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+
+        }
+
+        .right {
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+
+            h3 {
+                font-size: 1.5rem;
+                margin-bottom: 2rem;
+                line-height: 1.75rem;
+                font-weight: 600;
+                font-family: Playfair Display, serif;
+
+            }
+
+            p {
+                font-family: Inter, sans-serif;
+                margin-bottom: 1rem;
+                font-size: 0.875rem;
+                line-height: 1.25rem;
+                color: #fff;
+            }
+
+            .icons {
+                display: flex;
+                gap: 1rem;
+
+                a {
+                    color: #fff;
+                    font-size: 1.1rem;
+                    text-decoration: none;
+
+                    &:hover {
+                        color: rgb(139, 0, 0);
+                    }
+                }
+            }
+        }
+    }
+
+    .by {
+        font-style: italic;
+        padding-top: 15px;
+        width: 100%;
+        border-top: 1px solid rgb(93, 97, 103);
+    }
+}

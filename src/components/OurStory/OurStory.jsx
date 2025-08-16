@@ -3,7 +3,7 @@ import "./OurStory.scss";
 function OurStory() {
   return (
     <section className="our-story d-flex justify-content-between align-items-center">
-      <div className="our-story_content d-flex flex-column">
+      <div className="container our-story_content d-flex flex-column">
         <h2>
           <span>Our</span> Story
         </h2>
