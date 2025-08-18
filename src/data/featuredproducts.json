@@ -25,7 +25,7 @@
         "description": "Well-balanced flavor with hints of citrus and caramel sweetness.",
         "price": 18.5,
         "currency": "USD",
-        "image": "https://images.unsplash.com/photo-1559056199-641a0ac8b55e",
+        "image": "https://images.unsplash.com/photo-1452195100486-9cc805987862",
         "buttonText": "View Details",
         "category": "Bakery"
     },
@@ -45,7 +45,7 @@
         "description": "Light roast coffee with a nutty and aromatic hazelnut flavor.",
         "price": 21.3,
         "currency": "USD",
-        "image": "https://images.unsplash.com/photo-1559056199-641a0ac8b55e",
+        "image": "https://images.unsplash.com/photo-1452195100486-9cc805987862",
         "buttonText": "View Details",
         "category": "Pantry"
     },
@@ -65,7 +65,7 @@
         "description": "Smooth, creamy coffee infused with the sweet aroma of French vanilla.",
         "price": 20.0,
         "currency": "USD",
-        "image": "https://images.unsplash.com/photo-1587049352851-8d4e89133924",
+        "image": "https://images.unsplash.com/photo-1452195100486-9cc805987862",
         "buttonText": "View Details",
         "category": "Dairy"
     },

@@ -1,0 +1,187 @@
+.about {
+
+    .Our-Mission {
+        padding: 4rem 0;
+        background-color: rgb(255 248 225);
+
+        .title {
+            margin-bottom: 2rem;
+
+            p {
+                color: rgb(55 65 81);
+                font-size: 1.125rem;
+                line-height: 1.75rem;
+                width: 50%;
+                text-align: center;
+                margin-left: auto;
+                margin-right: auto;
+                font-family: Inter, sans-serif;
+
+                @media (max-width: 768px) {
+                    width: 90%;
+
+                }
+            }
+
+
+            h2 {
+                text-align: center;
+                font-weight: 600;
+                color: #1f2937;
+                margin-bottom: 2rem;
+                font-size: 2.25rem;
+                line-height: 2.5rem;
+                font-family: Playfair Display, serif;
+
+                span {
+                    color: #8b0000;
+                }
+            }
+        }
+
+        .cards {
+
+            .card {
+                background-color: rgb(255 255 255);
+                border: none;
+                padding: 1.5rem;
+                box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+                text-align: center;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 0.5rem;
+                margin-top: 20px;
+
+                .icon {
+                    position: relative;
+                    width: 4rem;
+                    height: 4rem;
+                    margin-bottom: 1rem;
+                    border-radius: 50%;
+                    background-color: rgb(139 0 0);
+
+                    i {
+                        transform: translate(-50%, -50%);
+                        font-size: 24px;
+                        color: #ffff;
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+
+                    }
+                }
+
+                .card-title {
+                    font-size: 1.25rem;
+                    line-height: 1.75rem;
+                    font-weight: 600;
+                    font-family: Playfair Display, serif;
+
+                }
+
+                .card-text {
+                    font-size: 1rem;
+                    line-height: 1.5rem;
+                    color: rgb(107 114 128);
+                    font-family: Inter, sans-serif;
+                }
+
+            }
+        }
+    }
+
+    .our-team {
+        padding: 4rem 0;
+
+        .title {
+            margin-bottom: 2rem;
+
+            p {
+                color: rgb(55 65 81);
+                font-size: 1.125rem;
+                line-height: 1.75rem;
+                width: 50%;
+                text-align: center;
+                margin-left: auto;
+                margin-right: auto;
+                font-family: Inter, sans-serif;
+
+                @media (max-width: 768px) {
+                    width: 90%;
+
+                }
+            }
+
+
+            h2 {
+                text-align: center;
+                font-weight: 600;
+                color: #1f2937;
+                margin-bottom: 2rem;
+                font-size: 2.25rem;
+                line-height: 2.5rem;
+                font-family: Playfair Display, serif;
+
+                span {
+                    color: #8b0000;
+                }
+            }
+        }
+
+        .team-member {
+            margin-left: auto;
+            margin-right: auto;
+            display: flex;
+            flex-wrap: wrap;
+
+            .image {
+                margin-left: auto;
+                margin-right: auto;
+                width: 12rem;
+                height: 12rem;
+                border-radius: 100%;
+                overflow: hidden;
+                margin-bottom: 1rem;
+
+                img {
+                    border-radius: 100%;
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+
+            .member {
+                margin-top: 2rem;
+                text-align: center;
+
+                h3 {
+                    margin: 0;
+                    font-weight: 600;
+                    font-size: 1.25rem;
+                    line-height: 1.75rem;
+                    font-family: Playfair Display, serif;
+
+                }
+
+                span {
+                    color: rgb(139 0 0);
+                    font-family: Inter, sans-serif;
+                    margin-bottom: .5rem;
+
+                }
+
+                p {
+                    color: rgb(107 114 128);
+                    font-size: 1rem;
+                    line-height: 1.5rem;
+                    font-family: Inter, sans-serif;
+                    max-width: 20rem;
+                    margin: 0.5rem auto;
+                }
+            }
+        }
+
+    }
+}
