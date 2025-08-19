@@ -9,7 +9,7 @@ import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import React, { Suspense, lazy } from "react";
-
+import { useLocation } from "react-router-dom";
 const Home = lazy(() => import("./page/Home/Home"));
 const Products = lazy(() => import("./page/Products/Products"));
 const About = lazy(() => import("./page/About/About"));
@@ -25,8 +25,19 @@ function App() {
     });
   }, []);
 
+  function ScrollToTop() {
+    const { pathname } = useLocation();
+
+    useEffect(() => {
+      window.scrollTo(0, 0);
+    }, [pathname]);
+
+    return null;
+  }
+
   return (
     <Router>
+      <ScrollToTop />
       <Header />
       <Suspense fallback={<Loader />}>
         <Routes>
