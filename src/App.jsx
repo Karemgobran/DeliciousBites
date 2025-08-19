@@ -2,22 +2,29 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Header from "./components/Header/Header";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./page/Home/Home";
 import Footer from "./components/Footer/Footer";
-import Products from "./page/Products/Products";
-import About from "./page/About/About";
-import Contact from "./page/Contact/Contact";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import React, { Suspense, lazy } from "react";
+
+// Lazy load pages
+const Home = lazy(() => import("./page/Home/Home"));
+const Products = lazy(() => import("./page/Products/Products"));
+const About = lazy(() => import("./page/About/About"));
+const Contact = lazy(() => import("./page/Contact/Contact"));
+const Loader = lazy(() => import("./components/Loader/Loader"));
+
 function App() {
   return (
     <Router>
       <Header />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/products" element={<Products />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
+      <Suspense fallback={<Loader />}>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/products" element={<Products />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </Suspense>
       <Footer />
     </Router>
   );
