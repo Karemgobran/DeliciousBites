@@ -1,16 +1,24 @@
 import React from "react";
 import "./Contact.scss";
 import Title from "../../components/Title/Title";
+
 function Contact() {
   return (
     <div className="contact-page">
-      <Title
-        title={"Contact Us"}
-        description={"Have questions or feedback? We'd love to hear from you."}
-      />
+     
+      <div data-aos="fade-down">
+        <Title
+          title={"Contact Us"}
+          description={
+            "Have questions or feedback? We'd love to hear from you."
+          }
+        />
+      </div>
+
       <div className="container contact-info">
         <div className=" row d-flex justify-content-between align-items-start">
-          <div className="contact-info  col-md-6">
+        
+          <div className="contact-info col-md-6" data-aos="fade-right">
             <div className="contact-header">
               <h3 className="contact-title">
                 <span>Get in</span> Touch
@@ -21,10 +29,15 @@ function Contact() {
                 contact information below to get in touch with our team.
               </p>
             </div>
+
             <div className="contact-data">
-              <div className="contact-data-item">
+              <div
+                className="contact-data-item"
+                data-aos="zoom-in"
+                data-aos-delay="100"
+              >
                 <div className="icon">
-                  <i class="fa-solid fa-location-dot"></i>
+                  <i className="fa-solid fa-location-dot"></i>
                 </div>
                 <div className="contact-data-text">
                   <h4>Our Location</h4>
@@ -32,9 +45,14 @@ function Contact() {
                   <p>Taste City, TC 12345</p>
                 </div>
               </div>
-              <div className="contact-data-item">
+
+              <div
+                className="contact-data-item"
+                data-aos="zoom-in"
+                data-aos-delay="200"
+              >
                 <div className="icon">
-                  <i class="fa-solid fa-envelope"></i>
+                  <i className="fa-solid fa-envelope"></i>
                 </div>
                 <div className="contact-data-text">
                   <h4>Email Us</h4>
@@ -45,9 +63,14 @@ function Contact() {
                   </p>
                 </div>
               </div>
-              <div className="contact-data-item">
+
+              <div
+                className="contact-data-item"
+                data-aos="zoom-in"
+                data-aos-delay="300"
+              >
                 <div className="icon">
-                  <i class="fa-solid fa-phone"></i>
+                  <i className="fa-solid fa-phone"></i>
                 </div>
                 <div className="contact-data-text">
                   <h4>Call Us</h4>
@@ -57,7 +80,9 @@ function Contact() {
                 </div>
               </div>
             </div>
-            <div className="contact-work-days">
+
+          
+            <div className="contact-work-days" data-aos="fade-up">
               <h4>Business Hours</h4>
               <div>
                 <span>Monday - Friday:</span>
@@ -73,10 +98,12 @@ function Contact() {
               </div>
             </div>
           </div>
-          <div className="contact-form col-md-6">
+
+       
+          <div className="contact-form col-md-6" data-aos="fade-left">
             <div className="my-5">
               <h3 className="mb-4 fw-bold">Send us a Message</h3>
-              <form className="">
+              <form>
                 <div className="mb-3">
                   <label className="form-label">Your Name</label>
                   <input
@@ -86,6 +113,7 @@ function Contact() {
                     placeholder="John Doe"
                   />
                 </div>
+
                 <div className="mb-3">
                   <label className="form-label">Email Address</label>
                   <input
@@ -96,7 +124,6 @@ function Contact() {
                   />
                 </div>
 
-                {/* Subject */}
                 <div className="mb-3">
                   <label className="form-label">Subject</label>
                   <input
@@ -107,7 +134,6 @@ function Contact() {
                   />
                 </div>
 
-                {/* Message */}
                 <div className="mb-3">
                   <label className="form-label">Message</label>
                   <textarea
@@ -117,7 +143,6 @@ function Contact() {
                   ></textarea>
                 </div>
 
-                {/* Button */}
                 <button type="submit" className="btn btn-danger w-100">
                   Send Message
                 </button>
@@ -126,7 +151,9 @@ function Contact() {
           </div>
         </div>
       </div>
-      <div className="find-us py-5">
+
+     
+      <div className="find-us py-5" data-aos="zoom-in-up">
         <div className="container">
           <h4>Find Us</h4>
           <div className="map-placeholder">

@@ -2,27 +2,34 @@ import React from "react";
 import "./About.scss";
 import Title from "../../components/Title/Title";
 import OurStory from "../../components/OurStory/OurStory";
+
 function About() {
   return (
     <div className="about">
-      <Title
-        title="About Us"
-        description="Learn more about our passion for quality food and beverage products."
-      />
-      <div className="about_content">
-        <OurStory
-          titleOne={
-            "Delicious Bites was founded in 2010 with a simple mission: to create exceptional food and beverage products using high-quality ingredients and traditional techniques."
-          }
-          titleTwo={
-            "What began as a small operation in a home kitchen has grown into a beloved brand known for its commitment to quality, sustainability, and incredible flavors."
-          }
-          titleThree={
-            "Today, we continue to handcraft our products in small batches, ensuring that each item meets our exacting standards before it reaches your table."
-          }
-          image={"https://images.unsplash.com/photo-1511994714008-b6d68a8b32a2"}
+      <div data-aos="fade-down">
+        <Title
+          title="About Us"
+          description="Learn more about our passion for quality food and beverage products."
         />
-        <div className="Our-Mission">
+      </div>
+      <div className="about_content">
+        <div data-aos="fade-right">
+          <OurStory
+            titleOne={
+              "Delicious Bites was founded in 2010 with a simple mission: to create exceptional food and beverage products using high-quality ingredients and traditional techniques."
+            }
+            titleTwo={
+              "What began as a small operation in a home kitchen has grown into a beloved brand known for its commitment to quality, sustainability, and incredible flavors."
+            }
+            titleThree={
+              "Today, we continue to handcraft our products in small batches, ensuring that each item meets our exacting standards before it reaches your table."
+            }
+            image={
+              "https://images.unsplash.com/photo-1511994714008-b6d68a8b32a2"
+            }
+          />
+        </div>
+        <div className="Our-Mission" data-aos="fade-up">
           <div className="title mb-5">
             <h2>
               <span>Our</span> Mission
@@ -35,11 +42,11 @@ function About() {
             </p>
           </div>
           <div className="cards container">
-            <div className=" row">
-              <div className="col-lg-4">
-                <div className="card ">
+            <div className="row">
+              <div className="col-lg-4" data-aos="zoom-in" data-aos-delay="100">
+                <div className="card">
                   <div className="icon">
-                    <i class="fa-solid fa-check"></i>
+                    <i className="fa-solid fa-check"></i>
                   </div>
                   <p className="card-title">Quality Ingredients</p>
                   <p className="card-text">
@@ -48,10 +55,11 @@ function About() {
                   </p>
                 </div>
               </div>
-              <div className="col-lg-4">
+
+              <div className="col-lg-4" data-aos="zoom-in" data-aos-delay="200">
                 <div className="card">
                   <div className="icon">
-                    <i class="fa-regular fa-gem"></i>
+                    <i className="fa-regular fa-gem"></i>
                   </div>
                   <p className="card-title">Traditional Methods</p>
                   <p className="card-text">
@@ -60,10 +68,11 @@ function About() {
                   </p>
                 </div>
               </div>
-              <div className="col-lg-4">
+
+              <div className="col-lg-4" data-aos="zoom-in" data-aos-delay="300">
                 <div className="card">
                   <div className="icon">
-                    <i class="fa-brands fa-nfc-directional"></i>
+                    <i className="fa-brands fa-nfc-directional"></i>
                   </div>
                   <p className="card-title">Sustainability</p>
                   <p className="card-text">
@@ -75,14 +84,18 @@ function About() {
             </div>
           </div>
         </div>
-        <div className="our-team">
+        <div className="our-team" data-aos="fade-up">
           <div className="title mb-5">
             <h2>
               <span>Our</span> Team
             </h2>
           </div>
           <div className="team-member row container">
-            <div className="member col-md-4">
+            <div
+              className="member col-md-4"
+              data-aos="flip-left"
+              data-aos-delay="100"
+            >
               <div className="image">
                 <img
                   src="https://images.unsplash.com/photo-1494790108377-be9c29b29330"
@@ -96,7 +109,12 @@ function About() {
                 Bites after years in the culinary industry.
               </p>
             </div>
-            <div className="member col-md-4">
+
+            <div
+              className="member col-md-4"
+              data-aos="flip-left"
+              data-aos-delay="200"
+            >
               <div className="image">
                 <img
                   src="https://images.unsplash.com/photo-1560250097-0b93528c311a"
@@ -110,7 +128,12 @@ function About() {
                 delivered fresh to your doorstep.
               </p>
             </div>
-            <div className="member col-md-4">
+
+            <div
+              className="member col-md-4"
+              data-aos="flip-left"
+              data-aos-delay="300"
+            >
               <div className="image">
                 <img
                   src="https://images.unsplash.com/photo-1580489944761-15a19d654956"
